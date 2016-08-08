@@ -235,7 +235,12 @@
     <None Include="Resources\Master-Ball.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="FodyWeavers.xml" />
+    <Content Include="encrypt.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Encryption\encrypt32.dll" />
+    <Content Include="Encryption\encrypt64.dll" />
+    <Resource Include="Encryption\ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
