@@ -6,8 +6,8 @@
                       xmlns:local="clr-namespace:GUI"
                       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                       Title="Necro/PokeBot4 GUI"
-                      Width="641"
-                      Height="908.694"
+                      Width="911"
+                      Height="829.694"
                       ResizeMode="NoResize"
                       ShowMaxRestoreButton="False"
                       WindowStartupLocation="CenterScreen"
@@ -244,7 +244,7 @@
         <GroupBox x:Name="ThrowAway"
                   Width="152"
                   Height="379"
-                  Margin="241,12,0,0"
+                  Margin="732,29,0,0"
                   HorizontalAlignment="Left"
                   VerticalAlignment="Top"
                   Header="Max Item Count:">
@@ -408,12 +408,6 @@
                           HorizontalAlignment="Left"
                           VerticalAlignment="Top"
                           Content="Use LuckyEggs" />
-                <CheckBox x:Name="checkBox12"
-                          Margin="3,3,0,0"
-                          HorizontalAlignment="Left"
-                          VerticalAlignment="Top"
-                          Checked="checkBox2_Checked"
-                          Content="German Poké Names" />
                 <CheckBox x:Name="checkBox13"
                           Height="17"
                           Margin="9,188,0,-110"
@@ -429,7 +423,7 @@
                           Margin="3,21,0,0"
                           HorizontalAlignment="Left"
                           VerticalAlignment="Top"
-                          Content="Show Poké List" />
+                          Content="Show Pokédex" />
                 <CheckBox x:Name="checkBox16"
                           Margin="3,76,0,4"
                           HorizontalAlignment="Left"
@@ -440,11 +434,6 @@
                           HorizontalAlignment="Left"
                           VerticalAlignment="Top"
                           Content="Humanized Throwing" />
-                <CheckBox x:Name="checkBox17_Copy"
-                          Margin="3,39,0,0"
-                          HorizontalAlignment="Left"
-                          VerticalAlignment="Top"
-                          Content="Use Poké Vision" />
             </Grid>
         </GroupBox>
         <GroupBox x:Name="DontTrans"
@@ -543,69 +532,9 @@
                 </ListView>
             </Grid>
         </GroupBox>
-        <GroupBox x:Name="CellPhone"
-                  Width="226"
-                  Height="128"
-                  Margin="10,515,0,0"
-                  HorizontalAlignment="Left"
-                  VerticalAlignment="Top"
-                  Header="Telegram API Settings (optional)">
-            <Grid Width="216"
-                  Height="91"
-                  Margin="0,0,-2,-2"
-                  HorizontalAlignment="Left"
-                  VerticalAlignment="Top">
-                <TextBox x:Name="textBox2"
-                         Width="136"
-                         Height="23"
-                         Margin="70,0,0,0"
-                         HorizontalAlignment="Left"
-                         VerticalAlignment="Top"
-                         TextWrapping="Wrap" />
-                <TextBox x:Name="textBox3"
-                         Width="157"
-                         Height="23"
-                         Margin="49,31,0,0"
-                         HorizontalAlignment="Left"
-                         VerticalAlignment="Top"
-                         TextWrapping="Wrap" />
-                <TextBox x:Name="textBox4"
-                         Width="58"
-                         Height="23"
-                         Margin="100,62,0,0"
-                         HorizontalAlignment="Left"
-                         VerticalAlignment="Top"
-                         TextWrapping="Wrap" />
-                <TextBlock x:Name="textBlock11"
-                           Margin="10,4,0,0"
-                           HorizontalAlignment="Left"
-                           VerticalAlignment="Top"
-                           Text="API Token:"
-                           TextWrapping="Wrap" />
-                <TextBlock x:Name="textBlock12"
-                           Margin="10,35,0,0"
-                           HorizontalAlignment="Left"
-                           VerticalAlignment="Top"
-                           Text="Name:"
-                           TextWrapping="Wrap" />
-                <TextBlock x:Name="textBlock13"
-                           Margin="10,66,0,0"
-                           HorizontalAlignment="Left"
-                           VerticalAlignment="Top"
-                           Text="Live Stats Delay:"
-                           TextWrapping="Wrap" />
-                <TextBlock x:Name="textBlock14"
-                           Margin="163,69,0,0"
-                           HorizontalAlignment="Left"
-                           VerticalAlignment="Top"
-                           RenderTransformOrigin="5.533,-3.812"
-                           Text="ms"
-                           TextWrapping="Wrap" />
-            </Grid>
-        </GroupBox>
         <Button x:Name="SaveConf"
                 Width="152"
-                Margin="251,698,0,0"
+                Margin="255,747,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Content="Save Configuration" />
