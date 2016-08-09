@@ -1,8 +1,4 @@
-﻿#region using directives
-
-#region using directives
-
-using System;
+﻿using System;
 using System.Linq;
 using POGOProtos.Networking.Responses;
 using System.Threading.Tasks;
@@ -10,11 +6,6 @@ using PoGo.NecroBot.Logic.Logging;
 using POGOProtos.Inventory.Item;
 using Google.Protobuf.Collections;
 
-#endregion
-
-// ReSharper disable CyclomaticComplexity
-
-#endregion
 
 namespace PoGo.NecroBot.Logic.Utils
 {
