@@ -1,1 +1,4 @@
 C:\Users\Paul Buck\Source\Repos\GUI\PoGo.NecroBot.CLI\bin\Debug\NecroBot.exe.config
+C:\Users\Paul Buck\Source\Repos\GUI\PoGo.NecroBot.CLI\obj\Debug\PoGo.NecroBot.CLI.csprojResolveAssemblyReference.cache
+C:\Users\Paul Buck\Source\Repos\GUI\PoGo.NecroBot.CLI\obj\Debug\PoGo.NecroBot.CLI.Properties.Resources.resources
+C:\Users\Paul Buck\Source\Repos\GUI\PoGo.NecroBot.CLI\obj\Debug\PoGo.NecroBot.CLI.csproj.GenerateResource.Cache

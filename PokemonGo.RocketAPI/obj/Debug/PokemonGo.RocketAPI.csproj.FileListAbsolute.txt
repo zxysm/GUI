@@ -1,0 +1,1 @@
+C:\Users\Paul Buck\Source\Repos\GUI\PokemonGo.RocketAPI\obj\Debug\PokemonGo.RocketAPI.csprojResolveAssemblyReference.cache
