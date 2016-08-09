@@ -63,9 +63,9 @@ namespace PoGo.NecroBot.CLI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon Icon {
+        internal static System.Drawing.Icon Master_Ball {
             get {
-                object obj = ResourceManager.GetObject("Icon", resourceCulture);
+                object obj = ResourceManager.GetObject("Master_Ball", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
