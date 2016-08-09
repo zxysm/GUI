@@ -6,8 +6,8 @@
                       xmlns:local="clr-namespace:GUI"
                       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                       Title="Necro/PokeBot4 GUI"
-                      Width="642"
-                      Height="775.694"
+                      Width="641"
+                      Height="908.694"
                       ResizeMode="NoResize"
                       ShowMaxRestoreButton="False"
                       WindowStartupLocation="CenterScreen"
@@ -37,7 +37,7 @@
                            VerticalAlignment="Top"
                            Text="Account Type:"
                            TextWrapping="Wrap" />
-                <TextBox x:Name="textBox"
+                <TextBox x:Name="username_box"
                          Width="158"
                          Height="23"
                          Margin="41,42,0,0"
@@ -59,7 +59,7 @@
                            VerticalAlignment="Top"
                            Text="Password:"
                            TextWrapping="Wrap" />
-                <PasswordBox x:Name="passwordBox"
+                <PasswordBox x:Name="password_Box"
                              Width="142"
                              Margin="57,70,0,0"
                              HorizontalAlignment="Left"
@@ -396,49 +396,52 @@
         </GroupBox>
         <GroupBox x:Name="OtherSettings"
                   Width="152"
-                  Height="207"
+                  Height="282"
                   Margin="241,489,0,0"
                   HorizontalAlignment="Left"
                   VerticalAlignment="Top"
                   Header="Other Settings">
-            <Grid Margin="0,0,-2,-1">
-                <CheckBox x:Name="checkBox1"
-                          Margin="0,8,0,0"
-                          HorizontalAlignment="Left"
-                          VerticalAlignment="Top"
-                          Content="Use LuckyEggs" />
-                <CheckBox x:Name="checkBox2"
-                          Margin="0,31,0,0"
-                          HorizontalAlignment="Left"
-                          VerticalAlignment="Top"
-                          Checked="checkBox2_Checked"
-                          Content="German Poké Names" />
-                <CheckBox x:Name="checkBox3"
-                          Margin="0,54,0,0"
-                          HorizontalAlignment="Left"
-                          VerticalAlignment="Top"
-                          Content="Use Incense" />
-                <CheckBox x:Name="checkBox4"
-                          Margin="0,77,0,0"
-                          HorizontalAlignment="Left"
-                          VerticalAlignment="Top"
-                          Content="Evolve Pokémon" />
-                <CheckBox x:Name="checkBox5"
-                          Margin="0,100,0,0"
-                          HorizontalAlignment="Left"
-                          VerticalAlignment="Top"
-                          Content="Show Poké List" />
-                <CheckBox x:Name="checkBox6"
-                          Margin="0,123,0,0"
-                          HorizontalAlignment="Left"
-                          VerticalAlignment="Top"
-                          Content="No Evolve Transfer" />
-                <CheckBox x:Name="checkBox7"
-                          Margin="0,146,0,0"
-                          HorizontalAlignment="Left"
-                          VerticalAlignment="Top"
-                          Content="Use Poké Vision"
-                          IsEnabled="False" />
+            <Grid Margin="-1,1,-1,164">
+                <CheckBox x:Name="checkBox11"
+                    Margin="9,168,0,-88"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Content="Use LuckyEggs" Height="15" />
+                <CheckBox x:Name="checkBox12"
+                    Margin="3,3,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Checked="checkBox2_Checked"
+                    Content="German Poké Names" />
+                <CheckBox x:Name="checkBox13"
+                    Margin="9,188,0,-110"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Content="Use Incense" Height="17" />
+                <CheckBox x:Name="checkBox14"
+                    Margin="3,56,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Content="Evolve Pokémon" />
+                <CheckBox x:Name="checkBox15"
+                    Margin="3,21,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Content="Show Poké List" />
+                <CheckBox x:Name="checkBox16"
+                    Margin="3,76,0,4"
+                    HorizontalAlignment="Left"
+                    Content="No Evolve Transfer" RenderTransformOrigin="0.788,4.333" />
+                <CheckBox x:Name="checkBox17"
+                    Margin="3,115,0,-35"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Content="Humanized Throwing" />
+                <CheckBox x:Name="checkBox17_Copy"
+                    Margin="3,39,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Content="Use Poké Vision" />
             </Grid>
         </GroupBox>
         <GroupBox x:Name="DontTrans"
@@ -599,9 +602,48 @@
         </GroupBox>
         <Button x:Name="SaveConf"
                 Width="152"
-                Margin="241,711,0,0"
+                Margin="251,791,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Content="Save Configuration" />
+        <GroupBox x:Name="PokeSniper_Settings"
+            Width="225"
+            Height="131"
+            Margin="10,734,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Header="PokeSniper Settings">
+            <Label x:Name="snp_loc_addr" Content="Location Server Address:" HorizontalAlignment="Left" Margin="0,37,0,0" VerticalAlignment="Top"/>
+        </GroupBox>
+        <TextBox x:Name="srv_add_snp" HorizontalAlignment="Left" Height="18" Margin="155,793,0,0" TextWrapping="Wrap" Text="localhost" VerticalAlignment="Top" Width="62"/>
+        <Label x:Name="snp_port" Content="Server Port:" HorizontalAlignment="Left" Margin="16,815,0,0" VerticalAlignment="Top" Height="28"/>
+        <TextBox x:Name="snp_port_box" HorizontalAlignment="Left" Height="24" Margin="89,815,0,0" TextWrapping="Wrap" Text="16969" VerticalAlignment="Top" Width="48" RenderTransformOrigin="0.5,0.5"/>
+        <CheckBox x:Name="enable_snp" Content="Enable Sniping" HorizontalAlignment="Left" Margin="17,756,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBox1" Content="Use Berries" HorizontalAlignment="Left" Margin="255,716,0,0" VerticalAlignment="Top"/>
+        <GroupBox x:Name="Item_Settings"
+            Width="152"
+            Height="122"
+            Margin="241,649,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Header="Item Settings">
+            <Grid Margin="-1,1,-1,164">
+                <CheckBox x:Name="checkBox2"
+                    Margin="-414,68,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Content="Use LuckyEggs" />
+                <CheckBox x:Name="checkBox4"
+                    Margin="-414,83,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Content="Use Incense" />
+                <CheckBox x:Name="checkBox18"
+                    Margin="514,3,-505,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Content="Humanized Throwing" />
+            </Grid>
+        </GroupBox>
     </Grid>
 </Controls:MetroWindow>

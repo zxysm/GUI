@@ -5,3 +5,9 @@ C:\Users\Paul Buck\Source\Repos\GUI\POGOProtos\bin\Debug\Google.Protobuf.xml
 C:\Users\Paul Buck\Source\Repos\GUI\POGOProtos\obj\Debug\POGOProtos.csprojResolveAssemblyReference.cache
 C:\Users\Paul Buck\Source\Repos\GUI\POGOProtos\obj\Debug\POGOProtos.dll
 C:\Users\Paul Buck\Source\Repos\GUI\POGOProtos\obj\Debug\POGOProtos.pdb
+C:\Users\Scott\Source\Repos\GUI\POGOProtos\bin\Debug\POGOProtos.dll
+C:\Users\Scott\Source\Repos\GUI\POGOProtos\bin\Debug\POGOProtos.pdb
+C:\Users\Scott\Source\Repos\GUI\POGOProtos\bin\Debug\Google.Protobuf.dll
+C:\Users\Scott\Source\Repos\GUI\POGOProtos\bin\Debug\Google.Protobuf.xml
+C:\Users\Scott\Source\Repos\GUI\POGOProtos\obj\Debug\POGOProtos.dll
+C:\Users\Scott\Source\Repos\GUI\POGOProtos\obj\Debug\POGOProtos.pdb

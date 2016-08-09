@@ -24,5 +24,15 @@ namespace GUI
         {
             InitializeComponent();
         }
+
+        private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void username_box_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
