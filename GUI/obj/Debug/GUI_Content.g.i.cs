@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("encrypt.dll")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("encryption/encrypt32.dll")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("encryption/encrypt64.dll")]
 
